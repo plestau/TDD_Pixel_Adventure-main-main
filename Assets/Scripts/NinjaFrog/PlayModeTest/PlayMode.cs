@@ -25,7 +25,7 @@ public class NinjaFrogMovementTest
         Assert.IsNotNull(NinjaFrog, "No hay rana en la escena");
 
         var sprite = NinjaFrog.GetComponent<SpriteRenderer>();
-        Assert.IsNotNull(sprite, "NinjaFrog does not have a SpriteRenderer");
+        Assert.IsNotNull(sprite, "La rana no tiene un spriteRenderer");
 
         var collider = NinjaFrog.GetComponent<Collider2D>();
         Assert.IsNotNull(collider, "NinjaFrog does not have a Collider2D");
