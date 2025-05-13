@@ -31,7 +31,7 @@ public class NinjaFrogMovementTest
         Assert.IsNotNull(collider, "La rana no tiene Collider 3D");
 
         var rb = NinjaFrog.GetComponent<Rigidbody2D>();
-        Assert.IsNotNull(rb, "NinjaFrog does not have a Rigidbody2D");
+        Assert.IsNotNull(rb, "El jugador no tiene un Rigidbody 2D");
         
         yield return null;
     }
