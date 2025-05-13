@@ -22,7 +22,7 @@ public class NinjaFrogMovementTest
         yield return new WaitForSeconds(1);
 
         NinjaFrog = GameObject.Find("NinjaFrog");
-        Assert.IsNotNull(NinjaFrog, "NinjaFrog was not found in the scene");
+        Assert.IsNotNull(NinjaFrog, "No hay rana en la escena");
 
         var sprite = NinjaFrog.GetComponent<SpriteRenderer>();
         Assert.IsNotNull(sprite, "NinjaFrog does not have a SpriteRenderer");
